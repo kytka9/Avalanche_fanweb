@@ -1,0 +1,3 @@
+For cooperation:
+Discord:
+Email:
