@@ -108,16 +108,8 @@ nav ul a:hover, .active a {
 	border-bottom: 2px solid #2E5991;
 }
 
-.contact-button {
-	background: #2E5991;
-	padding: 10px 20px;
-	border-radius: 20px;
-}
-
-.contact-button:hover,
-.references-button:hover {
-    filter: brightness(115%) contrast(85%);
-    border: 0;
+.active a:hover {
+    border-bottom: 2px solid #ffffff;
 }
 
 .centered {
