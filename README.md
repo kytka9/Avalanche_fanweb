@@ -1,3 +1,3 @@
 For cooperation:
-Discord:
-Email:
+Discord: kytka9
+Email: klimekjani@gmail.com
