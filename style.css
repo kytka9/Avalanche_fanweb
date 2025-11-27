@@ -16,7 +16,7 @@ html {
 
 body {
 	font: 18px "Poppins";
-	color: #414042;
+	color: #3c3c3c;
 	background: #F9F9F9;
 	box-sizing: border-box;
 	margin: 0;
@@ -43,7 +43,7 @@ footer {
 	color: white;
 	background: #6F263D;
 	padding: 50px 0 0 0;
-	clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+	clip-path: polygon(0 80px, 100% 0, 100% 105%, 0 105%);
 }
 
 footer a {
@@ -52,17 +52,17 @@ footer a {
 }
 
 #logo {
-	height: 40px;
+	height: 80px;
 	margin: auto 0 auto 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: url('images/colorado.webp') no-repeat;
-	background-size: 43px 40px;
+	background: url('images/main/colorado.webp') no-repeat;
+	background-size: 98px 80px;
 }
 
 #logo > * {
-	margin: 0 0 0 50px;
+	margin: 0 0 0 100px;
 }
 
 #logo h1 {
@@ -91,25 +91,25 @@ nav ul {
 }
 
 nav ul li {
-	padding: 0 25px;
+	padding: 0 10px;
 	margin: 0 5px;
 	font-size: 1em;
 	line-height: 4.3em;
 }
 
 nav ul a {
-	color: white;
-	padding: 8px 0;
+	color: #F9F9F9;
+	padding: 5px 0;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
 nav ul a:hover, .active a {
-	border-bottom: 2px solid #2E5991;
+	border-bottom: 3px solid #2E5991;
 }
 
 .active a:hover {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 4px solid #F9F9F9;
 }
 
 .centered {
@@ -117,9 +117,9 @@ nav ul a:hover, .active a {
 }
 
 .avatar {
-	float: right;
-	width: 500px;
-	padding-left: 10px;
+	display: block;
+    width: 1080px;
+    margin: 0 auto; 
 	filter: grayscale(0.1);
 }
 
@@ -131,7 +131,7 @@ nav ul a:hover, .active a {
 	margin-top: 50px;
 }
 
-.references-button {
+.overview-button {
 	background: #6F263D;
 	color: white;
 	font-size: 0.9em;
@@ -142,7 +142,7 @@ nav ul a:hover, .active a {
 	box-shadow: 5px 5px 1px #2E5991;
 }
 
-.references-button:hover {
+.overview-button:hover {
 	background: #2E5991;
 	color: white;
 	font-size: 0.9em;
@@ -151,6 +151,10 @@ nav ul a:hover, .active a {
 	padding: 12px 25px;
 	border-radius: 25px;
 	box-shadow: 5px 5px 1px #6F263D;
+}
+
+.overview-container-buttons {
+	text-align: center;
 }
 
 article {
@@ -169,29 +173,29 @@ article header {
 	height: 10px;
 }
 
-article h1
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-	padding: 10px 0;
-	color: #6F263D;
-}
+
 
 article h1 {
+	padding: 2px 0;
+	color: #6F263D;
 	margin: 0;
 	font-size: 2.3em;
 	font-weight: bold;
 	text-transform: uppercase;
-	width: max-content;
+	width: auto;
 	border-bottom: 5px solid #2E5991;
-	
-	
+	text-align: center;
 }
 
 article h2 {
+	padding: 2px 0;
+	color: #6F263D;
+	margin: 0;
 	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: max-content;
+	border-bottom: 5px solid #2E5991;
 }
 
 article h3,
@@ -215,30 +219,39 @@ article section a {
     float: left;
 }
 
-#shops td {
-    width: 25%;
-    padding: 10px;
 
-	vertical-align: top;
-	border: 1px solid #6F263D;
+/* ROSTER */
+.roster {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
 }
 
-#shops {
-	border-collapse: collapse;
-	margin-top: 30px;
+.roster th, .roster td {
+  padding: 10px 12px;
+  border: 0px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
 }
 
-#references img {
-	border:  1px solid gray;
-	padding: 6px;
-	box-shadow: 3px 3px 6px #999999;
-	margin-right: 6px;
+.roster thead {
+  background-color: #2E5991;
+  color: white;
 }
 
-#references a {
-    text-decoration: none;
+.roster tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
-#references a:hover {
-    text-decoration: none;
+.roster tbody tr:hover {
+  background-color: #e0e0e0;
 }
+
+/* .player-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+} */
