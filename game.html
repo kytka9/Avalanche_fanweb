@@ -16,7 +16,7 @@
 <body>
     <header>
         <div id="logo">
-            <h1>Colorado<span> Avalanche</span></h1>
+            <h1>Colorado<span>Avalanche</span></h1>
             <small>fans hub</small>
         </div>
         <nav>
@@ -33,20 +33,21 @@
 
     <article>
         <header>
-            <h1>Avalanche Overview</h1>
+            <h1>Colorado Avalanche</h1>
         </header>
         <section>
-            <p class="overview-container-buttons">
-            <button class="overview-button">History</button>
-                <button class="overview-button">Achievements</button>
-                <button class="overview-button">Stadium</button>
-            </p>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quidem, sapiente dolores laboriosam ut, enim quia soluta inventore minus exercitationem illum vitae. Error ad officia rem, quo facilis consequuntur laborum!</p>
-            <h2>Achievements</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nobis minima eaque hic voluptatibus facere mollitia, ab itaque non eum aperiam fugiat amet facilis natus ratione. Sit nihil nulla praesentium?</p>
-            <h2>Stadium</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur perspiciatis dolorem officia accusamus? Dicta velit voluptatibus veritatis sunt ea perferendis officia eius? Vitae non, quo soluta aspernatur dolorum repellendus!</p>
+
+            <div id="rink">
+                <div id="goal"></div>
+                <div id="puck"></div>
+                <!-- Hráči (prekážky) -->
+                <div class="player" style="left:200px; top:100px;"></div>
+                <div class="player" style="left:350px; top:200px;"></div>
+                <div class="player" style="left:250px; top:250px;"></div>
+            </div>
+
+            <div id="message"></div>
+
             <div class="cleaner"></div>
         </section>
     </article>
@@ -54,6 +55,8 @@
     <footer>
         2025 Created by &copy; kytka9<br>Have fun and enjoy this season<br>:)
     </footer>
+
+    <script src="js/game.js"></script>
 
 </body>
 
