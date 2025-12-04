@@ -11,7 +11,7 @@
 }
 
 html {
-    background: #6F263D;
+	background: #6F263D;
 }
 
 body {
@@ -21,10 +21,10 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 100px 0px 0px 0px;
-    min-width: 1080px;
+	min-width: 1080px;
 }
 
-body > header {
+body>header {
 	height: 100px;
 	width: 100%;
 	background: #6F263D;
@@ -32,8 +32,8 @@ body > header {
 	display: flex;
 	justify-content: space-evenly;
 	position: fixed;
-    z-index: 1;
-    top: 0;
+	z-index: 1;
+	top: 0;
 }
 
 footer {
@@ -61,7 +61,7 @@ footer a {
 	background-size: 98px 80px;
 }
 
-#logo > * {
+#logo>* {
 	margin: 0 0 0 100px;
 }
 
@@ -104,12 +104,13 @@ nav ul a {
 	text-transform: uppercase;
 }
 
-nav ul a:hover, .active a {
+nav ul a:hover,
+.active a {
 	border-bottom: 3px solid #2E5991;
 }
 
 .active a:hover {
-    border-bottom: 4px solid #F9F9F9;
+	border-bottom: 4px solid #F9F9F9;
 }
 
 .centered {
@@ -118,8 +119,8 @@ nav ul a:hover, .active a {
 
 .avatar {
 	display: block;
-    width: 1080px;
-    margin: 0 auto; 
+	width: 1080px;
+	margin: 0 auto;
 	filter: grayscale(0.1);
 }
 
@@ -133,12 +134,12 @@ nav ul a:hover, .active a {
 
 .overview-button {
 	background: #6F263D;
-	color: white;
+	color: rgb(255, 255, 255);
 	font-size: 0.9em;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 12px 25px;
-	border-radius: 25px;
+	border-radius: 20px;
 	box-shadow: 5px 5px 1px #2E5991;
 }
 
@@ -149,7 +150,7 @@ nav ul a:hover, .active a {
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 12px 25px;
-	border-radius: 25px;
+	border-radius: 20px;
 	box-shadow: 5px 5px 1px #6F263D;
 }
 
@@ -206,46 +207,47 @@ article h6 {
 	text-shadow: 2px 2px 0 #88abd1, 3px 3px 7px #666666;
 }
 
-article section p {
+/* article section p {
 	line-height: 1.8em;
 	margin-bottom: 1.5em;
 }
 
 article section a {
 	color: #6F263D;
-}
+} */
 
 .left {
-    float: left;
+	float: left;
 }
 
 
 /* ROSTER */
 .roster {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-family: "Poppins", sans-serif;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-family: "Poppins", sans-serif;
 }
 
-.roster th, .roster td {
-  padding: 10px 12px;
-  border: 0px solid #ddd;
-  text-align: left;
-  vertical-align: middle;
+.roster th,
+.roster td {
+	padding: 10px 12px;
+	border: 0px solid #ddd;
+	text-align: left;
+	vertical-align: middle;
 }
 
 .roster thead {
-  background-color: #2E5991;
-  color: white;
+	background-color: #2E5991;
+	color: white;
 }
 
 .roster tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+	background-color: #f9f9f9;
 }
 
 .roster tbody tr:hover {
-  background-color: #e0e0e0;
+	background-color: #e0e0e0;
 }
 
 /* .player-img {
@@ -269,51 +271,66 @@ article section a {
 } */
 
 #rink {
-    width: 750px;
-    height: 450px;
-    background: #cfe8ff;
-    border: 6px solid #000000;
-    margin: 40px auto;
-    position: relative;
-    box-shadow: 0 0 40px #6F263D;
-    border-radius: 80px;
+	width: 750px;
+	height: 450px;
+	background: #cfe8ff;
+	border: 6px solid #000000;
+	margin: 40px auto;
+	position: relative;
+	box-shadow: 0 0 40px #6F263D;
+	border-radius: 80px;
 }
 
 #goal {
-    width: 30px;
-    height: 120px;
-    border: 6px solid red;
-    position: absolute;
-    right: 0;
-    top: 165px;
-    background: rgba(255, 0, 0, 0.1);
-    border-radius: 10px;
+	width: 30px;
+	height: 120px;
+	border: 6px solid red;
+	position: absolute;
+	right: 0;
+	top: 165px;
+	background: rgba(255, 0, 0, 0.1);
+	border-radius: 10px;
 }
 
 #puck {
-    width: 26px;
-    height: 26px;
-    background: black;
-    border-radius: 50%;
-    position: absolute;
-    left: 20px;
-    top: 160px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+	width: 26px;
+	height: 26px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: 160px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .player {
-    width: 30px;
-    height: 30px;
-    background: blue;
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	width: 30px;
+	height: 30px;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 #message {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
-    color: white;
-    font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/* OVERVIEW */
+
+.top-page {
+    text-decoration: none;
+    background: #2E5991;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    position: fixed;
+    left: 20px;
+    bottom: 70px;
+    display: none;
 }
